@@ -241,12 +241,14 @@ footer > .container ul {
   padding: 18px 30px;
   box-sizing: border-box;
   border: none;
+  outline:none;
 }
 textarea {
   width: 445px;
   padding: 18px 30px;
   box-sizing: border-box;
   border: none;
+  outline: none;
 }
 
 /* ======== footer part end======== */
