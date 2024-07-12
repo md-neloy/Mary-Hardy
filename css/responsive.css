@@ -1,0 +1,90 @@
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 570px) {
+  main {
+    width: 100% !important;
+  }
+  /* ======== header part start ========= */
+  header > nav {
+    padding: 0 30px;
+    margin: 0;
+  }
+  header > nav > .container {
+    flex-wrap: wrap;
+  }
+  header > nav > .container .menu_item {
+    flex-wrap: wrap;
+  }
+  header > nav > .container .menu_item ul {
+    padding: 0;
+  }
+  #banner > .container > .banner_txt > .button {
+	flex-wrap: wrap;
+}
+  /* ======== header part end ========= */
+
+  /* ===== banner part start ========== */
+  #banner > .container {
+	margin: 0;
+	flex-wrap: wrap;
+    padding: 0 22px;
+}
+#banner > .container > .banner_image {
+	width: 100%;
+}
+#banner > .container > .banner_image img{
+    width:100%;
+}
+  /* ===== banner part end ========== */
+
+  /* ====== profession part start ===== */
+  #profession > .container > .cmn_text > p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .profession_parant {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ====== profession part end ===== */
+  /* ====== summery part start ===== */
+  #summary .parrent_resume {
+    flex-direction: column;
+  }
+  #summary .parrent_resume .resume {
+    width: 100%;
+  }
+  /* ====== summery part end ===== */
+  /* ====== about part start ===== */
+  #about > .container {
+    padding: 0;
+  }
+  #about > .container .details {
+    flex-wrap: wrap;
+  }
+  /* ====== about part end ===== */
+
+  /* ====== footer part start ===== */
+  footer > .container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  footer > .container p {
+    width: 100%;
+  }
+  .fotter_title {
+    width: 100%;
+  }
+  form {
+    padding: 0 10px;
+  }
+  .div input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  /* ====== footer part end ===== */
+}
